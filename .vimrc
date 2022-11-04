@@ -1,5 +1,4 @@
 inoremap jk <Esc>
-let mapleader = "'"
 syntax on " highlight syntax
 set noswapfile " disable the swapfile
 set hlsearch " highlight all results
@@ -12,3 +11,6 @@ set nu rnu
 
 " sync clipboard with OS
 set clipboard=unnamed
+
+" remap " to , to be able to access the registers with an US International Keyboard Layout
+noremap , "
