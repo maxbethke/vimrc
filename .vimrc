@@ -10,7 +10,7 @@ set number relativenumber
 set nu rnu
 
 " sync clipboard with OS
-set clipboard=unnamed
+set clipboard=0
 
 " remap " to , to be able to access the registers with an US International Keyboard Layout
 noremap , "
