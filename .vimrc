@@ -9,8 +9,11 @@ set incsearch " show search results as you type
 set number relativenumber
 set nu rnu
 
-" sync clipboard with OS
+" sync yank register with OS clipboard
 set clipboard=0
 
 " remap " to , to be able to access the registers with an US International Keyboard Layout
 noremap , "
+
+" Map F2 to move the rest of the text on the current line down to a newly inserted next line
+:map <F2> a<CR><ESC>l
